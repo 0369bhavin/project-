@@ -1,0 +1,41 @@
+body{
+    background-color: wheat;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.todo-container {
+    background-color: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  width: 300px;
+}
+.input-section{
+    display: flex;
+    gap: 10px;
+}
+#take-input{
+    padding: 2px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+button{
+background-color: black;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+button :hover{
+    background-color: #218838;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    justify-content: space-between;
+}
+li{
+    padding: 3px;
+    background-color: #eee;
+}
